@@ -1,0 +1,27 @@
+<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="64" cy="64" r="32" stroke="#fff" stroke-width="4" fill="none">
+        <animate attributeType="XML" attributeName="r" from="32" to="64"
+                 dur="1.5s" begin="0s" repeatCount="indefinite" keySplines="0,.69,.16,1" calcMode="spline"></animate>
+        <animate attributeType="CSS" attributeName="opacity" values="0;1;1;1;1;0"
+                 dur="1.5s" begin="0s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle cx="64" cy="64" r="32" stroke="#fff" stroke-width="4" fill="none">
+        <animate attributeType="XML" attributeName="r" from="32" to="64"
+                 dur="1.5s" begin=".5s" repeatCount="indefinite" keySplines="0,.69,.16,1" calcMode="spline"></animate>
+        <animate attributeType="CSS" attributeName="opacity" values="0;1;1;1;1;0"
+                 dur="1.5s" begin=".5s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle cx="64" cy="64" r="32" stroke="#fff" stroke-width="4" fill="none">
+        <animate attributeType="XML" attributeName="r" from="32" to="64"
+                 dur="1.5s" begin="1s" repeatCount="indefinite" keySplines="0,.69,.16,1" calcMode="spline"></animate>
+        <animate attributeType="CSS" attributeName="opacity" values="0;1;1;1;1;0"
+                 dur="1.5s" begin="1s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle cx="64" cy="64" r="32" stroke="#fff" stroke-width="4" fill="none">
+        <animate attributeType="XML" attributeName="r" from="32" to="64"
+                 dur="1.5s" begin="1.5s" repeatCount="indefinite" keySplines="0,.69,.16,1" calcMode="spline"></animate>
+        <animate attributeType="CSS" attributeName="opacity" values="0;1;1;1;1;0"
+                 dur="1.5s" begin="1.5s" repeatCount="indefinite"></animate>
+
+    </circle>
+</svg>

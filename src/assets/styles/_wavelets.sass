@@ -1,0 +1,57 @@
+// Default wavelet component styles
+.wavelet
+  background-image: url(@/assets/img/wavelet-anim-default.svg)
+  //currently using the file from the static folder for recreation wavelets with a pseudo different backgrounds (?v=xxxx)
+  background-size: contain
+  background-position: center
+  position: absolute
+  z-index: 109
+  will-change: opacity
+  opacity: 0
+  transition: opacity 1s
+
+  &_fadein
+    opacity: 1
+
+  &_fadeout
+    opacity: 0
+
+  &__value
+    color: #fff
+    background-color: black
+    display: inline-block
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: 10%
+    font-weight: 900
+    padding: 0 4px
+    text-align: center
+    border-radius: 6px
+    z-index: 110
+
+
+.wavelet-coloring
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  border-radius: 100%
+  mix-blend-mode: multiply
+
+.shine
+  background-size: contain
+  background-position: center
+  position: absolute
+  background-color: white
+  border-radius: 100%
+  opacity: 0
+  transition: opacity 1s
+  will-change: opacity
+
+  &_fadein
+    opacity: 1
+
+  &_fadeout
+    opacity: 0

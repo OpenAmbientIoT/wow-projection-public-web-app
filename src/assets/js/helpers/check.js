@@ -1,0 +1,1 @@
+export const isObject = obj => obj && obj.constructor && obj.constructor === Object;
